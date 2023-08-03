@@ -1,0 +1,6 @@
+.modal {
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}

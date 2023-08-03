@@ -1,0 +1,68 @@
+.modal {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.modal__content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    min-width: 500px;
+    max-height: 200px;
+    position: relative;
+}
+  
+.closeContainer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: start; 
+}
+  
+.closeButton {
+    font-size: 18px;
+    cursor: pointer;
+    background-color: white;
+    color: red;
+    align-self: flex-start;
+    border: none; 
+}
+  
+.modal input,
+.modal textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.saveButton {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.saveButton:hover {
+    background-color: #45a049;
+}
+  
+.saveButton:focus {
+    outline: none;
+}
+  
+.saveButton:active {
+    background-color: #4caf50;
+}
+
